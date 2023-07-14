@@ -1,0 +1,641 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300;500;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*
+   Mobile Version 
+*/
+
+/*
+  ========================================
+    Header 
+  ========================================
+*/
+
+.woman-tablet {
+  display: none;
+}
+
+.woman {
+  width: 100vw;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #151515;
+  padding: 3.2rem 1.6rem;
+}
+
+.p-review {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+  padding: 0 1.6rem 3.2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 12rem 1.6rem;
+}
+
+.location {
+  width: 204px;
+  height: 72px;
+  background: #151515;
+  border: none;
+  font-family: "Big Shoulders Display";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.arrow {
+  width: 56px;
+  height: 72px;
+  background: #d5966c;
+  border: none;
+}
+
+/*
+  ========================================
+    section="first-s" 
+  ========================================
+*/
+
+.first-s {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.6rem 3.2rem;
+}
+
+.gallery {
+  width: 343px;
+  height: 320px;
+}
+
+.desktop-gallery {
+  display: none;
+}
+
+.gallery-day {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #151515;
+  padding: 2.5rem 0 2.1rem;
+  width: 10ch;
+}
+
+.look-through {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+}
+
+/*
+  ========================================
+    section="second-s" 
+  ========================================
+*/
+
+.second-s {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 0 1.6rem 12rem;
+}
+
+.one-piece {
+  width: 343px;
+  height: 480px;
+}
+
+.one-piece-desktop {
+  display: none;
+}
+
+.second-gall {
+  display: none;
+}
+
+.third-gall {
+  display: none;
+}
+
+.second-gallery {
+  width: 343px;
+  height: 200px;
+  padding-bottom: 1.6rem;
+}
+
+.inspire {
+  width: 343px;
+  height: 293px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.suggest {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 4.8rem 2.4rem 0;
+}
+
+.welcoming {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 0 2.4rem 4.7rem;
+}
+
+/*
+  ========================================
+    Footer 
+  ========================================
+*/
+
+footer {
+  width: 375px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  padding: 4.8rem 3.2rem;
+}
+
+.logo {
+  width: 110.05px;
+  height: 40px;
+  margin-bottom: 2.8rem;
+}
+
+.name-review {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 2.8rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+/*
+   Between Mobile and Tablet  
+*/
+
+@media screen and (min-width: 376px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .look-through {
+    width: 343px;
+  }
+
+  footer {
+    width: 100vw;
+  }
+}
+
+/*
+   Tablet Version 
+*/
+
+@media screen and (min-width: 768px) {
+  /*
+  ========================================
+    Header 
+  ========================================
+*/
+
+  header {
+    position: relative;
+    width: 100vw;
+    margin-bottom: 12rem;
+  }
+
+  .woman {
+    display: none;
+  }
+
+  .woman-tablet {
+    display: inline-block;
+    height: 70rem;
+  }
+
+  h1 {
+    position: absolute;
+    top: 14.5rem;
+    left: 38.9rem;
+    font-size: 70px;
+    line-height: 65px;
+    padding: 0;
+  }
+
+  .p-review {
+    position: absolute;
+    top: 32.3rem;
+    left: 38.9rem;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0;
+    width: 29ch;
+  }
+
+  .buttons {
+    position: absolute;
+    top: 48.3rem;
+    left: 38.9rem;
+    padding: 0;
+  }
+
+  /*
+  ========================================
+    section="first-s" 
+  ========================================
+*/
+
+  .first-s {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 0 11px 0;
+  }
+
+  .gallery {
+    width: 398px;
+    height: 400px;
+    margin-left: 68px;
+  }
+
+  .gallery-day {
+    font-size: 50px;
+    line-height: 45px;
+    width: 223px;
+  }
+
+  .look-through {
+    font-size: 18px;
+    line-height: 28px;
+    width: 223px;
+  }
+
+  /*
+  ========================================
+    section="second-s" 
+  ========================================
+*/
+
+  .second-s {
+    display: flex;
+    flex-direction: row;
+    gap: 1.1rem;
+    margin-bottom: 120px;
+  }
+
+  .one-piece {
+    width: 398px;
+    height: 720px;
+  }
+
+  .second-gallery {
+    display: none;
+  }
+
+  .second-gall {
+    display: inline-block;
+    width: 280px;
+    padding-bottom: 1.1rem;
+  }
+
+  .third-gall {
+    display: none;
+  }
+
+  .inspire {
+    width: 280px;
+    height: 396px;
+    gap: 2.4rem;
+  }
+
+  .suggest {
+    padding: 8.5rem 2.9rem 0;
+  }
+
+  .welcoming {
+    padding: 0 2.9rem 8.5rem;
+  }
+
+  /*
+  ========================================
+    Footer 
+  ========================================
+*/
+
+  footer {
+    flex-direction: row;
+    padding: 5.6rem 3.9rem;
+  }
+
+  .name-review {
+    padding-left: 6.4095rem;
+    padding-right: 13.3rem;
+    margin-bottom: 0rem;
+  }
+}
+
+/*
+   Viewport Version 
+*/
+
+@media screen and (min-width: 1000px) {
+  header {
+    margin-bottom: 18rem;
+  }
+
+  .combiner {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .back-img-combiner {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .black-back {
+    width: 450px;
+    height: 799px;
+    background: black;
+    display: inline-block;
+  }
+
+  .woman {
+    display: none;
+  }
+
+  .woman-img {
+    display: inline-block;
+  }
+
+  .woman-tablet {
+    display: inline-block;
+    width: 540px;
+    height: 800px;
+  }
+
+  h1 {
+    top: 18.9rem;
+    left: 16.4rem;
+    font-size: 96px;
+    line-height: 88px;
+    background-image: linear-gradient(90deg, white 64%, black 45%);
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .p-review {
+    top: 19rem;
+    left: 92.5rem;
+    font-size: 22px;
+    line-height: 32px;
+    width: 24ch;
+  }
+
+  .buttons {
+    top: 41.4rem;
+    left: 92.5rem;
+  }
+
+  /*
+  ========================================
+    Hovers 
+  ========================================
+*/
+
+  .location {
+    cursor: pointer;
+  }
+
+  .location:hover {
+    background-color: #d5966c;
+    box-shadow: 0px 10px 10px rgb(122, 81, 33);
+  }
+
+  .fb {
+    cursor: pointer;
+  }
+
+  .fb:hover path {
+    fill: #d5966c;
+  }
+}
+
+/*
+   Desktop Version 
+*/
+
+@media screen and (min-width: 1440px) {
+  /*
+    ========================================
+      Header 
+    ========================================
+  */
+
+  header {
+    margin-bottom: 18rem;
+  }
+
+  .back-img-combiner {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .black-back {
+    width: 450px;
+    height: 799px;
+    background: black;
+    display: inline-block;
+  }
+
+  .woman {
+    display: none;
+  }
+
+  .woman-img {
+    display: inline-block;
+  }
+
+  .woman-tablet {
+    display: inline-block;
+    width: 540px;
+    height: 800px;
+  }
+
+  h1 {
+    top: 18.9rem;
+    left: 16.4rem;
+    font-size: 96px;
+    line-height: 88px;
+    background-image: linear-gradient(90deg, white 64%, black 45%);
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .p-review {
+    top: 19rem;
+    left: 92.5rem;
+    font-size: 22px;
+    line-height: 32px;
+    width: 24ch;
+  }
+
+  .buttons {
+    top: 41.4rem;
+    left: 92.5rem;
+  }
+
+  /*
+  ========================================
+    section="first-s" 
+  ========================================
+*/
+
+  .first-s {
+    margin: 0 0 30px 0;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  .desktop-gallery {
+    display: inline-block;
+    margin-left: 12.5rem;
+  }
+
+  .gallery-day {
+    font-size: 60px;
+    line-height: 60px;
+    width: 35.5rem;
+    padding: 70px 0 32px;
+  }
+
+  .look-through {
+    font-size: 22px;
+    line-height: 32px;
+    width: 35.5rem;
+  }
+
+  /*
+  ========================================
+    section="second-s" 
+  ========================================
+*/
+
+  .second-s {
+    gap: 3rem;
+    margin-bottom: 18rem;
+  }
+
+  .one-piece {
+    display: none;
+  }
+
+  .one-piece-desktop {
+    display: inline-block;
+  }
+
+  .second-gallery {
+    display: none;
+  }
+
+  .second-gall {
+    display: none;
+  }
+
+  .third-gall {
+    display: inline-block;
+    padding-bottom: 3rem;
+  }
+
+  .inspire {
+    width: 445px;
+    height: 377px;
+    gap: 3.2rem;
+  }
+
+  .suggest {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 6.5rem 4.8rem 0;
+  }
+
+  .welcoming {
+    padding: 0 4.8rem 6.4rem;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  /*
+  ========================================
+    Footer 
+  ========================================
+*/
+
+  footer {
+    padding: 8rem 16.5rem;
+  }
+
+  .logo {
+    width: 159.57px;
+    height: 58px;
+  }
+
+  .name-review {
+    padding-left: 14rem;
+    padding-right: 28.8rem;
+  }
+}
