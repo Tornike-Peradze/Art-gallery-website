@@ -29,8 +29,8 @@ In this challenge, you have been tasked with crafting an engaging layout, select
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/Tornike-Peradze/Art-gallery-website)
+- Live Site URL: (https://tornike-peradze.github.io/Art-gallery-website/)
 
 ## My process
 
