@@ -1,89 +1,87 @@
 # Frontend Mentor - Art gallery website
 
-![Design preview for the Art gallery website coding challenge](./preview.jpg)
+## Table of contents
 
-## Welcome! 👋
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
+## Overview
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
+This is a solution to the [Art-gallery-website]. It aims to create a visually appealing and visually as close as possible to the original skilled e-learning landing page.
 
-**To do this challenge, you need a good understanding of HTML and CSS.**
+### The challenge
 
-## The challenge
+The Art Gallery Website project is a responsive website built using HTML, CSS, and JavaScript. It showcases various artworks and provides information about the gallery. The website incorporates modern design techniques, responsive layouts, and interactive elements to enhance the user experience.
 
-Your challenge is to build out this art gallery website and get it looking as close to the design as possible.
+In this challenge, you have been tasked with crafting an engaging layout, selecting appropriate colors and typography, and arranging the content in a logical and visually appealing manner. You have also been responsible for incorporating responsive design principles to ensure the page displays properly on different devices and screen sizes.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Screenshot
 
-Your users should be able to:
+![Webpage Preview](./assets/preview.jpg)
 
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements throughout the site
-- **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
+### Links
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+- Solution URL: ()
+- Live Site URL: ()
 
-## Where to find everything
+## My process
 
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
+### Built with
 
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. We provide 1x and 2x sizes for each image. You can choose how to use them based on different screen sizes and resolutions. We've provided an image of the map with the location pin, but you can use the `icon-location.svg` asset if you're doing the bonus challenge.
+- HTML: Used for creating the structure and elements of the web page.
+  CSS: Applied styles to enhance the visual presentation and layout of the order summary card.
+- Visual Studio Code: A powerful and popular code editor that provided a convenient and efficient development environment.
+- Frontend Mentor: The project was completed as part of a challenge provided by Frontend Mentor (https://www.frontendmentor.io/). Frontend Mentor offers a range of real-life coding challenges to help developers practice their skills and improve their front-end development abilities.
 
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project. Our fonts always come from [Google Fonts](https://fonts.google.com/).
+The Art gallery website is built using HTML and CSS, which are fundamental web development technologies. HTML is used to structure the content and define the different sections of the page, while CSS is utilized to style and layout the elements. The CSS properties and selectors are applied to achieve the desired visual effects and ensure consistency across the page.
 
-## Building your project
+In addition to HTML and CSS, you may have used various assets such as images, logos, and icons to enhance the visual presentation. These assets are referenced within the HTML using the <img> tag and linked in the CSS using the url() function.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+To enhance the design and typography, you may have utilized external fonts provided by Google Fonts or other sources. These fonts are imported into the CSS using the @import rule, and then applied to the appropriate elements using the font-family property.
 
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+To achieve responsiveness, you have utilized media queries in CSS to apply different styles based on the screen size and orientation. This allows the page layout to adapt and provide an optimized viewing experience on mobile, tablet, and desktop devices.
 
-## Deploying your project
+Overall, the Equalizer landing page demonstrates your ability to combine HTML and CSS effectively to create a visually appealing and responsive webpage that effectively communicates the key features and benefits of the app.
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+### What I learned
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+Throughout the development of this project, I gained valuable knowledge and skills. Here are some key things I learned:
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+- HTML structure: I gained experience in creating the structure of a web page using HTML. I learned how to organize elements such as headings, paragraphs, and div containers to establish the layout of the order summary card.
 
-## Create a custom `README.md`
+- CSS styling: I learned how to apply CSS styles to enhance the visual presentation of the order summary card. This included styling text, backgrounds, borders, and utilizing CSS selectors and properties to achieve the desired design.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+From the provided HTML and CSS code, it appears that you have a good understanding of HTML structure and CSS styling. You have used semantic HTML tags appropriately, such as <header>, <section>, <button>, and <footer>. The CSS styles are well-organized and follow a mobile-first responsive design approach. Media queries have been used to adjust the layout and styles for different screen sizes, including mobile, tablet, and desktop.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Continued development
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+I aspire to dive deeper into CSS and explore more advanced techniques and concepts. This includes mastering CSS Grid, learning CSS animations and transitions, and exploring responsive design patterns to create truly dynamic and interactive user interfaces. With the increasing use of mobile devices, it's crucial to create websites that adapt seamlessly to different screen sizes. I want to focus on mastering responsive design principles and adopting a mobile-first approach, ensuring that my projects are accessible and provide a great user experience across all devices.
 
-## Submitting your solution
+To further enhance the page, you can consider the following:
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+- Accessibility: Ensure that the page is accessible to users with disabilities by adding appropriate ARIA attributes, alt text for images, and ensuring proper keyboard navigation.
+- SEO optimization: Improve the page's search engine optimization by adding meta tags, relevant headings, and descriptive text.
+- Animation and interactivity: Add subtle animations or transitions to make the page more engaging. Consider adding interactive elements, such as hover effects or interactive components, to provide a richer user experience.
+- Responsive images: Optimize images for different screen sizes by using responsive image techniques, such as srcset and sizes attributes or CSS media queries.
+- Form validation: If there are any forms on the page, consider implementing client-side form validation to improve the user experience and ensure accurate data submission.
+- Overall, the provided code demonstrates a solid foundation for a pre-launch landing page. With further development and improvements, you can create a compelling and user-friendly experience for potential customers of the Typemaster keyboard.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Useful resources
 
-**⚠️ IMPORTANT ⚠️: With these premium challenges, please be sure not to upload the design files to GitHub when you're submitting to the platform and sharing it around. If you've created a brand new project, the easiest way to do that is to copy across the `.gitignore` provided in this starter project.**
+- [Example resource 1](https://www.w3schools.com/);
+- [Example resource 2](https://developer.mozilla.org/en-US/);
+- [Example resource 3](https://www.freecodecamp.org/learn/2022/responsive-web-design/);
+- [Example resource 4](https://www.youtube.com/@WebDevSimplified);
 
-## Sharing your solution
+## Author
 
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
+- Github - [@Tornike-Peradze](https://github.com/Tornike-Peradze);
+- Linkdin - [@Tornike Peradze](https://www.linkedin.com/in/tornike-peradze-ab508a1a4/);
